@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.field {
+  margin-bottom: 12px;
+}
+
+.field > label {
+  margin-bottom: 8px;
+}
+
+#error_explanation {
+  color: red;
+}
