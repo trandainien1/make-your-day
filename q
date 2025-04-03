@@ -1,0 +1,45 @@
+=> 
+[[32m#<Post:0x00007b7a4d53e600[0m
+  id: [34m[1m1[0m,
+  title: [31m[1m"[0m[31mFirst post[0m[31m[1m"[0m,
+  description: [31m[1m"[0m[31mWhat do you think about this little fish?[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2025-04-02 14:19:49.982040000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-04-02 14:19:49.982040000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53e4c0[0m
+  id: [34m[1m2[0m,
+  title: [31m[1m"[0m[31mThe Benefits of Meditation for Mental Health[0m[31m[1m"[0m,
+  description: [31m[1m"[0m[31mMeditation has been practiced for thousands of yea...[0m[31m[1m"[0m,
+  user_id: [34m[1m3[0m,
+  created_at: [31m[1m"[0m[31m2025-04-02 16:04:36.289159000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-04-02 16:04:37.671120000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53e100[0m
+  id: [34m[1m3[0m,
+  title: [31m[1m"[0m[31mThe Benefits of Meditation for Mental Health[0m[31m[1m"[0m,
+  description: [31m[1m"[0m[31mMeditation has been practiced for thousands of yea...[0m[31m[1m"[0m,
+  user_id: [34m[1m3[0m,
+  created_at: [31m[1m"[0m[31m2025-04-02 16:06:15.856982000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-04-02 16:06:17.173483000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53de80[0m
+  id: [34m[1m4[0m,
+  title: [31m[1m"[0m[31mUnlocking the Secrets of the Universe[0m[31m[1m"[0m,
+  description: [31m[1m"[0m[31mJoin us on a journey through the cosmos as we expl...[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2025-04-03 06:03:28.566110000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-04-03 06:03:29.483044000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53dd40[0m
+  id: [34m[1m5[0m,
+  title: [31m[1m"[0m[31mThe Art of Mindful Living[0m[31m[1m"[0m,
+  description: [31m[1m"[0m[31mIn today's fast-paced world, it's easy to get caug...[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2025-04-03 06:07:19.499799000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-04-03 06:07:19.925059000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53d980[0m
+  id: [34m[1m6[0m,
+  title: [31m[1m"[0m[31mThe Power of Creative Expression[0m[31m[1m"[0m,
+  description: [31m[1m"[0m[31mUnleash your inner artist and discover the transfo...[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2025-04-03 06:11:10.798378000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-04-03 06:11:10.882391000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53d5c0[0m id: [34m[1m7[0m, title: [31m[1m"[0m[31ma[0m[31m[1m"[0m, description: [31m[1m"[0m[31ma[0m[31m[1m"[0m, user_id: [34m[1m1[0m, created_at: [31m[1m"[0m[31m2025-04-03 06:11:45.549594000 +0000[0m[31m[1m"[0m, updated_at: [31m[1m"[0m[31m2025-04-03 06:11:45.549594000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Post:0x00007b7a4d53d340[0m id: [34m[1m8[0m, title: [31m[1m"[0m[31ma[0m[31m[1m"[0m, description: [31m[1m"[0m[31ma[0m[31m[1m"[0m, user_id: [34m[1m1[0m, created_at: [31m[1m"[0m[31m2025-04-03 06:11:57.700025000 +0000[0m[31m[1m"[0m, updated_at: [31m[1m"[0m[31m2025-04-03 06:11:57.700025000 +0000[0m[31m[1m"[0m[32m>[0m]
