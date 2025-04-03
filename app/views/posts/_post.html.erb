@@ -1,16 +1,16 @@
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <% if current_user && post.image.attached? %>
+        <% if post.image.attached? %>
           <%= image_tag post.image, class: "" %>
         <% else %>
           <img class="rounded-t-lg" src="https://placehold.co/600x400" alt="Image" />
         <% end %>
     </a>
     <div class="p-5">
-        <a href="#">
+        <%= link_to post_path(post) do %> 
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= post.title %></h5>
-        </a>
+        <% end %>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"><%= post.description %></p>
         <div>
           <%= link_to post_path(post), class: "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 " do %>

@@ -11,13 +11,13 @@ URL: https://flowbite.com/docs/components/typography/
             <header class="mb-4 lg:mb-6 not-format">
                 <address class="flex items-center mb-6 not-italic">
                     <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                        <% if current_user && current_user.avatar.attached? %>
-                          <%= image_tag current_user.avatar, class: "mr-4 w-16 h-16 rounded-full" %> 
+                        <% if @post.user.avatar.attached? %>
+                          <%= image_tag @post.user.avatar, class: "mr-4 w-16 h-16 rounded-full" %> 
                         <%else%>
                           <img class="mr-4 w-16 h-16 rounded-full" src="https://placehold.co/400" alt="User avatar">
                         <% end %>
                         <div>
-                            <%= link_to current_user.email, edit_user_registration_path, class: "text-xl font-bold text-gray-900 dark:text-white" %>
+                            <%= link_to @post.user.email, show_user_path(@post.user), class: "text-xl font-bold text-gray-900 dark:text-white" %>
                             <p class="text-base text-gray-500 dark:text-gray-400"><time pubdate datetime="2022-02-08" title="February 8th, 2022"><%= @post.days_ago %></time></p>
                         </div> 
                     </div>
