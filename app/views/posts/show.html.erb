@@ -22,9 +22,11 @@ URL: https://flowbite.com/docs/components/typography/
                                 <p class="text-base text-gray-500 dark:text-gray-400"><time pubdate datetime="2022-02-08" title="February 8th, 2022"><%= @post.days_ago %></time></p>
                             </div> 
                         </div>
+                        <% if current_user.id == @post.user.id %>
                         <div>
                             <%= link_to "Edit", edit_post_path, class:"text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" %>
                         </div>
+                        <% end %>
                    </div>
                 </address>
                 <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white"><%= @post.title %></h1>
