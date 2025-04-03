@@ -4,6 +4,8 @@ class Post < ApplicationRecord
   belongs_to :user
   has_one_attached :image
 
+  has_many :bookmarks
+
   scope :latest_posts, -> { order(created_at: :desc) }
 
   def days_ago

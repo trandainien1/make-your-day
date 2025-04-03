@@ -21,7 +21,7 @@ class PostsController < ApplicationController
   end
 
   def show
-     
+     @bookmark = @post.bookmarks.find_by(user_id: current_user.id)
   end
 
   def update
