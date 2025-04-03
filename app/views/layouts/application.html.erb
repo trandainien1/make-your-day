@@ -30,7 +30,7 @@
       <%= render 'layouts/toast', info: notice %>
     <% end %>
     <% if alert %>
-      <p class="notice"><%= alert %></p>
+      <%= render 'layouts/toast', info: alert %>
     <% end %>
     
     <main class="container mx-auto mt-28 px-5 flex justify-center">

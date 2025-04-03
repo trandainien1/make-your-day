@@ -1,4 +1,10 @@
 <%= form_with model: post, class: "w-[400px] max-w-sm mx-auto" do |f| %>
+    <% if post.errors.any? %>
+     <% post.errors.full_messages.each do |msg| %>
+        <%= render 'layouts/toast', info: msg %>
+      <% end %>
+    <% end %>
+
     <div class="mb-5 field">
       <%= f.label :title, class:"block text-sm font-medium text-gray-900 dark:text-white" %>
       <%= f.text_field :title, autofocus: true, autocomplete: "email", class: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" %>
