@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show]
+  before_action :set_post, only: [:show, :edit, :update]
   # def index
   # end
 
@@ -25,7 +25,11 @@ class PostsController < ApplicationController
   end
 
   def update
-
+    if @post.update(post_params)
+      redirect_to post_path(@post)
+    else
+      render :edit, status: :unprocessable_entity
+    end
   end
 
   def destroy
@@ -33,7 +37,7 @@ class PostsController < ApplicationController
 
   private
 
-  def set_post 
+  def set_post
     @post = Post.find(params[:id])
   end
 
