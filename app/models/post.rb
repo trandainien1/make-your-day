@@ -4,6 +4,8 @@ class Post < ApplicationRecord
   belongs_to :user
   has_one_attached :image
 
+  scope :latest_posts, -> { order(created_at: :desc) }
+
   def days_ago
     days = (Date.today - created_at.to_date).to_i
     if days <= 0

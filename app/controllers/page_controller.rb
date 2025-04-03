@@ -1,5 +1,5 @@
 class PageController < ApplicationController
   def home
-    @posts = Post.all 
+    @posts = Post.latest_posts 
   end 
 end
