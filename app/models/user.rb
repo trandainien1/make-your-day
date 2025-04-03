@@ -5,4 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
         has_one_attached :avatar
+        has_many :posts
+  def username 
+    email.split('@').first
+  end
 end

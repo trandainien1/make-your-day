@@ -1,5 +1,5 @@
 class PageController < ApplicationController
   def home
-    
-  end
+    @posts = Post.all 
+  end 
 end
