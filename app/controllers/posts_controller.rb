@@ -24,7 +24,9 @@ class PostsController < ApplicationController
   def show
     if user_signed_in? 
       @bookmark = @post.bookmarks.find_by(user_id: current_user.id)
+      @comment = Comment.new
     end 
+    @comments = Comment.latest_comments.where(post_id: @post.id)
   end
 
   def update

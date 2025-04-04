@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get "users/:id", to: "users#show", as: "show_user"
   resources :posts, except: [:index]
   resources :bookmarks
+  resources :comments
 end
 

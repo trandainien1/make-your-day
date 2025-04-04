@@ -1,13 +1,10 @@
-class Post < ApplicationRecord
-  validates :title, :description, presence: true
+class Comment < ApplicationRecord
+  validates :content, presence: true
 
   belongs_to :user
-  has_one_attached :image
+  belongs_to :post
 
-  has_many :bookmarks
-  has_many :comments
-
-  scope :latest_posts, -> { order(created_at: :desc) }
+  scope :latest_comments, -> { order(created_at: :desc) }
 
   def days_ago
     diff_seconds = Time.current - created_at
@@ -25,5 +22,4 @@ class Post < ApplicationRecord
       "#{days} day#{'s' if days != 1} ago"
     end
   end
-  
 end
