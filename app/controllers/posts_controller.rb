@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update]
+  # before_action :authenticate_user!, only: [:show]
   # def index
   # end
 
@@ -21,7 +22,9 @@ class PostsController < ApplicationController
   end
 
   def show
-     @bookmark = @post.bookmarks.find_by(user_id: current_user.id)
+    if user_signed_in? 
+      @bookmark = @post.bookmarks.find_by(user_id: current_user.id)
+    end 
   end
 
   def update
