@@ -1,8 +1,12 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
   # before_action :authenticate_user!, only: [:show]
-  # def index
-  # end
+
+  def category 
+    @posts = Post.where(category_id: params[:category_id])
+    @categories = Category.titles
+    render 'page/home'
+  end
 
   def create
     @post = Post.new(post_params)
@@ -15,6 +19,7 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
+    @categories = Category.titles
   end
   
   def edit
@@ -47,9 +52,11 @@ class PostsController < ApplicationController
 
   def set_post
     @post = Post.find(params[:id])
+    @categories = Category.titles
   end
 
   def post_params 
-    params.require(:post).permit([:title, :description, :image, :user_id])
+    params.require(:post).permit([:title, :description, :image, :user_id, :category_id])
   end
+
 end

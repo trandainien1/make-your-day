@@ -12,3 +12,15 @@
 body {
  font-family: 'Roboto', sans-serif;
 }
+
+form > select {
+  border: 2px solid black;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+form > div > select {
+  border: 2px solid black;
+  padding: 4px 8px;
+  border-radius: 8px;
+}

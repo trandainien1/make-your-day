@@ -15,6 +15,11 @@
       <%= f.text_area :description, autofocus: true, autocomplete: "email", class: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500", rows: 20 %>
     </div>
 
+    <div class="mb-5 flex gap-2 items-center justify-between">
+      <%= f.label :category_id, "Category", class:"block font-medium text-gray-900 dark:text-white" %>
+      <%= f.select :category_id, @categories %>
+    </div>
+
     <div>
       <%= f.label :image, class: "block mb-2 text-sm font-medium text-gray-900 dark:text-white" %>
       <%= f.file_field :image, class:"text-sm text-stone-500
