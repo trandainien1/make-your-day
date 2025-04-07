@@ -27,4 +27,8 @@ class Comment < ApplicationRecord
   def has_liked?(user_id)
     likes.find_by(user_id: user_id)
   end
+
+  def user?(current_user_id)
+    user_id == current_user_id
+  end
 end
