@@ -28,6 +28,7 @@ class PostsController < ApplicationController
     end 
     @comments = Comment.latest_comments.where(post_id: @post.id)
   end
+  
 
   def update
     if @post.update(post_params)

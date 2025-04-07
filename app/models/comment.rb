@@ -3,6 +3,7 @@ class Comment < ApplicationRecord
 
   belongs_to :user
   belongs_to :post
+  has_many :likes
 
   scope :latest_comments, -> { order(created_at: :desc) }
 
@@ -21,5 +22,9 @@ class Comment < ApplicationRecord
       days = (diff_seconds / 86_400).to_i
       "#{days} day#{'s' if days != 1} ago"
     end
+  end
+
+  def has_liked?(user_id)
+    likes.find_by(user_id: user_id)
   end
 end

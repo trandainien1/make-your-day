@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   resources :posts, except: [:index]
   resources :bookmarks
   resources :comments
+  resources :likes
 end
 
