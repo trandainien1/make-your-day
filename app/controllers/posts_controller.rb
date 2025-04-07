@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :edit, :update]
+  before_action :set_post, only: [:show, :edit, :update, :destroy]
   # before_action :authenticate_user!, only: [:show]
   # def index
   # end
@@ -39,6 +39,8 @@ class PostsController < ApplicationController
   end
 
   def destroy
+    @post.destroy
+    redirect_to root_path, notice: "Post was successfully deleted."
   end
 
   private

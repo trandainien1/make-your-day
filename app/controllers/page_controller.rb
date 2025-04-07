@@ -6,7 +6,7 @@ class PageController < ApplicationController
   def bookmark
     console
     post_ids = Bookmark.where(user_id: current_user.id).pluck(:post_id)
-    @posts = Post.where(id: post_ids)
+    @posts = Post.where(id: post_ids).latest_posts
     render :home
   end
 end
