@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :posts, except: [:index] do
     collection do
       get "category"
+      get "search"
     end
   end
   resources :bookmarks

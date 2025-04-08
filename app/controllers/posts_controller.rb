@@ -48,6 +48,12 @@ class PostsController < ApplicationController
     redirect_to root_path, notice: "Post was successfully deleted."
   end
 
+  def search
+    @posts = Post.where("title like ?", "%#{params[:query]}%")
+    @categories = Category.titles
+    render 'page/home'
+  end
+
   private
 
   def set_post
