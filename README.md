@@ -1,6 +1,6 @@
 # 📝 Web Chia Sẻ Cảm Nghĩ
 
-Đây là một ứng dụng web nơi người dùng có thể dễ dàng **chia sẻ cảm nghĩ của mình thông qua các bài viết**, lưu trữ các bài viết mà mình thích, tương tác với người khác bằng cách **bình luận và thích bình luận**, từ đó tạo nên một cộng đồng trao đổi tích cực.
+Đây là một ứng dụng web nơi người dùng có thể dễ dàng chia sẻ cảm nghĩ của mình thông qua các bài viết, lưu trữ các bài viết mà mình thích, tương tác với người khác bằng cách bình luận và thích bình luận, từ đó tạo nên một cộng đồng trao đổi tích cực.
 
 ## 🔑 Chức năng chính
 
