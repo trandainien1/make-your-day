@@ -3,7 +3,6 @@ class Category < ApplicationRecord
 
   scope :titles, -> { pluck(:title, :id) }
   scope :get_title, -> (c_id) { find(c_id).title }
-  console
   def get_id(find_title)
     find_by(title: find_title)
   end
