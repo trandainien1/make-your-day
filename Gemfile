@@ -68,4 +68,4 @@ gem "devise", "~> 4.9"
 
 gem "hotwire-livereload", "~> 2.0", group: :development
 
-gem "rails_live_reload"
+# gem "rails_live_reload"
