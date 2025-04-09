@@ -53,7 +53,7 @@
 ---
 
 ## Cơ sở dữ liệu
-![image](https://github.com/user-attachments/assets/c7dff790-149b-4aea-8a14-e903a9d565e5)
+![image](https://github.com/user-attachments/assets/30ff3d5a-f99c-45af-a333-36170456630f)
 
 ---
 
