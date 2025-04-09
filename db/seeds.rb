@@ -10,5 +10,5 @@
 categories = ["Happy", "Universe", "Science"]
 
 categories.each do |title|
-  Category.find_or_create_by(title: title)
+  category = Category.find_or_create_by(title: title)
 end
