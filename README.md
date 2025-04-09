@@ -1,4 +1,4 @@
-# 📝 Web Chia Sẻ Cảm Nghĩ
+![Screenshot from 2025-04-09 14-28-37](https://github.com/user-attachments/assets/5ff79157-9ad0-4b70-9b2a-96d69ff0cc68)![Screenshot from 2025-04-09 14-28-12](https://github.com/user-attachments/assets/02f4b1eb-1623-4d80-b621-2f131f8a1b5d)# 📝 Web Chia Sẻ Cảm Nghĩ
 
 Đây là một ứng dụng web nơi người dùng có thể dễ dàng chia sẻ cảm nghĩ của mình thông qua các bài viết, lưu trữ các bài viết mà mình thích, tương tác với người khác bằng cách bình luận và thích bình luận, từ đó tạo nên một cộng đồng trao đổi tích cực.
 
@@ -32,6 +32,25 @@
 
 ---
 
+## 💻 Giao diện 
+- Trang chủ
+![Screenshot from 2025-04-09 14-27-00](https://github.com/user-attachments/assets/e3951229-d1a1-477c-9ba8-267605b78271)
+
+- Trang đăng nhập
+![Screenshot from 2025-04-09 14-27-21](https://github.com/user-attachments/assets/ab52f104-421e-4ddc-8210-eb8cb2ca12c8)
+
+- Trang đăng ký
+![Screenshot from 2025-04-09 14-27-37](https://github.com/user-attachments/assets/7e718d4d-42ae-412f-9155-505ccaa38592)
+
+- Tạo bài viết
+![Screenshot from 2025-04-09 14-28-12](https://github.com/user-attachments/assets/ea74e1e9-095d-4314-9549-3be22f6ace49)
+
+- Chi tiết bài viết
+![Screenshot from 2025-04-09 14-28-37](https://github.com/user-attachments/assets/9abbb3ff-0e42-4062-a347-da26f1d65e95)
+![Screenshot from 2025-04-09 14-28-47](https://github.com/user-attachments/assets/496600f8-7561-476a-a703-702abdc24e45)
+
+---
+
 ## 🚀 Hướng dẫn khởi động
 
 ```bash
@@ -48,3 +67,5 @@ rails db:migrate
 # Chạy server
 rails server
 ```
+
+
