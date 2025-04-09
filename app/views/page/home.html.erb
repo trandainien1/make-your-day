@@ -1,4 +1,4 @@
-<div> 
+<div class='w-[80%]'> 
   <div class='flex justify-between items-center'>
     <%= form_with class:"text-xl", url: category_posts_path, method: :get  do |form| %>
       <%= form.select :category_id, @categories, prompt: !params[:category_id] ? "All" : Category.find(params[:category_id]).title %>
