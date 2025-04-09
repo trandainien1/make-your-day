@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-  belongs_to :post
+  belongs_to :post, optional: true
 
   scope :titles, -> { pluck(:title, :id) }
   scope :get_title, -> (c_id) { find(c_id).title }
