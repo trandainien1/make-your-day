@@ -14,7 +14,6 @@
 - Chỉnh sửa nội dung bài viết
 - Xóa bài viết
 - Xem danh sách bài viết của mình và người khác
-- Yêu thích bài viết của người dùng khác
 
 ### 💬 Bình luận & Tương tác
 - Bình luận dưới mỗi bài viết
@@ -50,6 +49,11 @@
 
 ### Bình luận
 ![Screenshot from 2025-04-09 14-28-47](https://github.com/user-attachments/assets/496600f8-7561-476a-a703-702abdc24e45)
+
+---
+
+## Cơ sở dữ liệu
+![image](https://github.com/user-attachments/assets/c7dff790-149b-4aea-8a14-e903a9d565e5)
 
 ---
 
