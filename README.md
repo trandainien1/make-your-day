@@ -1,4 +1,4 @@
-![Screenshot from 2025-04-09 14-28-37](https://github.com/user-attachments/assets/5ff79157-9ad0-4b70-9b2a-96d69ff0cc68)![Screenshot from 2025-04-09 14-28-12](https://github.com/user-attachments/assets/02f4b1eb-1623-4d80-b621-2f131f8a1b5d)# 📝 Web Chia Sẻ Cảm Nghĩ
+# 📝 Web Chia Sẻ Cảm Nghĩ
 
 Đây là một ứng dụng web nơi người dùng có thể dễ dàng chia sẻ cảm nghĩ của mình thông qua các bài viết, lưu trữ các bài viết mà mình thích, tương tác với người khác bằng cách bình luận và thích bình luận, từ đó tạo nên một cộng đồng trao đổi tích cực.
 
